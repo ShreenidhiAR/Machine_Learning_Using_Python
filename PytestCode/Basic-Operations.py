@@ -1,7 +1,9 @@
 ##Using basic Operations
 #File Reading
-#use pytest -rs Basic-Operations.py 
+#use pytest  Basic-Operations.py -k <testcse name> 
+#use pytest -rs Basic-Operations.py
 import os
+import sys
 import time
 def test_read_file_p0():
     file=open(os.getcwd()+"/test.csv")
