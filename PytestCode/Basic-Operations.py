@@ -11,3 +11,10 @@ def test_read_file_p0():
 def test_time_related_p0():
     print(time.time())
     print("TIME IS "+time.asctime())
+
+def test_lists_to_dist_p0():
+    li=["Apple","Banana","Cherry","DragonFruit"]
+    dicts={}
+    for i in range(len(li)):
+        dicts[i]=li[i]
+    print(dicts)        
